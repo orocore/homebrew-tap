@@ -1,27 +1,27 @@
 class Focusoro < Formula
   desc "Pomodoro sessions, focus tracking and goals in your terminal"
   homepage "https://focusoro.com"
-  version "1.0.0"
+  version "1.0.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/orocore/focusoro/releases/download/v1.0.0/focusoro-macos-arm64"
-      sha256 "fe9467ff1dac84b1e82d964fe498e5bae7980cca30dc9f4cbda7bdab5f42b298"
+      url "https://github.com/orocore/focusoro/releases/download/v1.0.1/focusoro-macos-arm64"
+      sha256 "621b7ebc892d8a2465ca9a2cb1289100efa571f8f272982c2af2a616f9b112f2"
     end
     on_intel do
-      url "https://github.com/orocore/focusoro/releases/download/v1.0.0/focusoro-macos-x86_64"
-      sha256 "54bd92800e0906ffd2d9c31ff00d5ce994b21d994a6fabfa3b6ae6262b233bcc"
+      url "https://github.com/orocore/focusoro/releases/download/v1.0.1/focusoro-macos-x86_64"
+      sha256 "6f30f819702ae9436a442ecea955527beb0236a6440318fb63c43576e20e6ed5"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/orocore/focusoro/releases/download/v1.0.0/focusoro-linux-arm64"
-      sha256 "2c8d5ec538f68582d7efe6f58f0bfe134e2ae42e35ceb46ef3696c48d685027f"
+      url "https://github.com/orocore/focusoro/releases/download/v1.0.1/focusoro-linux-arm64"
+      sha256 "57fa830d7e5ca343455ba39f18afd45623ba4985ea82aca1a28cd0324805ea31"
     end
     on_intel do
-      url "https://github.com/orocore/focusoro/releases/download/v1.0.0/focusoro-linux-x86_64"
-      sha256 "fbe79a90255f4ed08a16a8ed56a1f1628191ddec852d8331607d26ecadcd740c"
+      url "https://github.com/orocore/focusoro/releases/download/v1.0.1/focusoro-linux-x86_64"
+      sha256 "f90ba293cc1582677144e548806af4de1ba6a1d7767efb8a509ad5d27738b27d"
     end
   end
 
